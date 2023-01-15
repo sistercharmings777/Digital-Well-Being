@@ -3,7 +3,7 @@ import random
 
 from fastapi import FastAPI
 
-from health_app.dbase import list_of_terms, infections, general_infections
+from app.dbase import list_of_terms, infections, general_infections
 from schemas.healthy_schema import DiseaseInfectionCreate
 
 
